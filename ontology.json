@@ -1,0 +1,13 @@
+{
+  "entities": {
+    "Devanampiyatissa": {"type": "King", "period": "Anuradhapura", "related_to": ["Buddhism", "Mahinda Thero", "Irrigation"]},
+    "Mahinda Thero": {"type": "Monk", "related_to": ["Buddhism", "Devanampiyatissa"]},
+    "Buddhism": {"type": "Religion", "introduced_by": "Mahinda Thero", "adopted_by": "Devanampiyatissa"},
+    "Irrigation": {"type": "Technology", "developed_in": "Anuradhapura", "used_by": ["Kings"]}
+  },
+  "relations": [
+    {"from": "Devanampiyatissa", "relation": "promoted", "to": "Buddhism"},
+    {"from": "Devanampiyatissa", "relation": "built", "to": "Irrigation"},
+    {"from": "Mahinda Thero", "relation": "introduced", "to": "Buddhism"}
+  ]
+}
