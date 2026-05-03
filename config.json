@@ -1,5 +1,6 @@
 {
   "ollama_url": "http://localhost:11434",
   "models": ["llama3", "gemma"],
-  "default_model": "llama3"
+  "default_model": "llama3",
+  "embedding_model": "nomic-embed-text"
 }
